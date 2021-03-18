@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "fakeindex",
+	"version": "${version}",
+	"name": "Fake Index",
+	"description": "Adds an index screen for fake content.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Fake-Index#readme",
+		"issues": "https://github.com/haykam821/Fake-Index/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.fakeindex.Main"
+		]
+	},
+	"license": "MIT",
+	"icon": "assets/fakeindex/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"plasmid": "*"
+	}
+}
